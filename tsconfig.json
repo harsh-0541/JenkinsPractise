@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ES2022"
+        ],
+        "module": "commonjs",
+        "types": [
+            "node",
+            "@playwright/test",
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "noEmit": true
+    },
+    "include": [
+        "**/*.ts",
+        "Archive/ApiTestingGet.spec.ts"
+    ]
+}
